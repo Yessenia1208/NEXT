@@ -12,5 +12,6 @@ export default function Login() {
         <button  type="Submit">Iniciar sesión</button>
       </div>
     )
-       
+
+  
     }
