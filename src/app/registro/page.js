@@ -7,6 +7,8 @@ export default function registro() {
     const [state, setState] = useState({
         email: "",
         password: ""
+
+        
     });
 
     const handleChange = (event) => {
