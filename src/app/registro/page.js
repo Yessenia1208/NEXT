@@ -6,8 +6,8 @@ export default function registro() {
 
     const [state, setState] = useState({
         email: "",
+        username: "",
         password: ""
-
         
     });
 
@@ -30,6 +30,13 @@ export default function registro() {
                 placeholder="email" 
             />
 
+              <input 
+                name="username" 
+                onChange={handleChange} 
+                type="text" 
+                placeholder="fulanita123" 
+            />
+
             <input 
                 name="password" 
                 onChange={handleChange} 
@@ -37,7 +44,7 @@ export default function registro() {
                 placeholder="123456" 
             />
 
-            <button>Login</button>
+            <button>Registrar</button>
 
         </div>
     )

@@ -19,7 +19,7 @@ export default function Login() {
 
     return (
         <div className="container">
-
+            <label> Email </label>
             <input 
                 onChange={handleChange} 
                 name="email" 
@@ -28,6 +28,7 @@ export default function Login() {
                 placeholder="email" 
             />
 
+            <label> Contraseña </label>
             <input 
                 name="password" 
                 onChange={handleChange} 
@@ -35,7 +36,7 @@ export default function Login() {
                 placeholder="123456" 
             />
 
-            <button>Login</button>
+            <button>Iniciar sesión</button>
 
         </div>
     )
